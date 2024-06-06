@@ -2,7 +2,7 @@ menu:
   Appetizers:
     image: /photos/springrolls.png
     spring rolls:
-      description: Grilled pork, shrimp, lettuce, rice noodle wrapped in rice paper. 
+      description: Grilled pork, shrimp, lettuce, and rice noodle wrapped in rice paper. 
         Served with peanut sauce
       price: 6.95
       image: /photos/springrolls.png
@@ -20,7 +20,7 @@ menu:
       price: 10.50
       image: /photos/wings.png
     Fried Calamary:
-      description: Crispy calamary sticks served with sweet and source dipping sauce.
+      description: Crispy calamary sticks served with sweet and sour dipping sauce.
       price: 7.95
       image: /photos/calamari.png
     Banh Xeo:

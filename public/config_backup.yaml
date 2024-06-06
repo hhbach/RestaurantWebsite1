@@ -1,0 +1,253 @@
+menu:
+  - Appetizers:
+    image: photos/springrolls.png
+    items:
+      - title: "spring rolls"
+        description: this is a test description
+        price: 4.5
+        image: /photos/springrolls.png
+      - title: "Vegie Spring Rolls"
+        description: this is a test description
+        price: 4.5
+        image: photos/chaGio.png
+      - title: "egg rolls"
+        description: this is a test description
+        price: 4.5
+        image: /photos/eggrolls.png
+      - title: "chicken wings"
+        description: this is a test description
+        price: 4.5
+        image: /photos/wings.png
+      - title: "Fried Calamary"
+        description: this is a test description
+        price: 4.5
+        image: /photos/calamari.png
+      - title: "Banh Xeo"
+        description: this is a test description
+        price: 4.5
+        image: /photos/banhxeo.png
+      - title: "Green beans"
+        description: this is a test description
+        price: 4.5
+        image: /photos/greenbeans.png
+      - title: "Papaya Salad"
+        description: this is a test description
+        price: 4.5
+        image: /photos/goidudu.png
+      - title: "Spicy Beef Salad"
+        description: this is a test description
+        price: 4.5
+        image: /photos/beefsalad.png
+      - title: "Pork Short Ribs"
+        description: this is a test description
+        price: 4.5
+        image: /photos/suonnon.png
+      - title: "chicken Pot Stickers"
+        description: this is a test description
+        price: 4.5
+        image: /photos/potstickers.png
+      - title: "Cream Cheese Crab Puffs"
+        description: this is a test description
+        price: 4.5
+        image: photos/chaGio.png
+      - title: "Spicy Adamame"
+        description: this is a test description
+        price: 4.5
+        image: /photos/adamame.png
+  - Vermicelli:
+    image: /photos/bunthitnuong.png
+    items:
+      - title: Hanoi Rice Vermicelli
+        description: Grilled marinated pork, sausage, herbs, salad and vietnamese pickles
+        price: 14.5
+        image: not exist
+      - title: Shrimp pork and egg roll vermicelli
+        description: Grilled marinated pork, shrimp, and egg roll with rice vermicelli
+        price: 13.95
+        image: /photos/bunthitnuong.png
+      - title: Beef and egg roll vermicelli
+        description: Grilled marinated pork, sausage, herbs, salad and vietnamese pickles
+        price: 13.95
+        image: /photos/bunchagiobonuong.png
+      - title: Chicken and egg roll vermicelli
+        description: Grilled chicken and egg roll with rice vermicelli
+        price: 13.95
+        image: /photos/bunga.png
+      - title: Lemongrass beef
+        description: Grilled chicken and egg roll with rice vermicelli
+        price: 13.95
+        image: /photos/bunboxa.png
+      - title: Tofu Delight
+        description: Rice vermicelli topped with wok tossed tofu
+        price: 13.95
+        image: /photos/bunboxa.png
+  - Rice:
+    image: /photos/comtam.png
+    items:
+      - title: Com Tam
+        description: this is a test description
+        price: 14.95
+        image: /photos/comtam.png
+      - title: Pork Chop Country
+        description: Grilled marinated pork chop, slices of cucumber, tomato, and lettuce over broken rice
+        price: 14.95
+        image: /photos/comsuon.png
+      - title: Grilled Pork and shrim Rice
+        description: Grilled pork and shrimp over rice
+        price: 14.95
+        image: /photos/comthitnuong.png
+      - title: Beef short ribs Rice
+        description: Grilled beef short ribs over rice
+        price: 14.95
+        image: /photos/comsuon.png
+      - title: Combo Fried Rice
+        description: Fried rice with shrimp, chicken, and beef
+        price: 14.95
+        image: /photos/comchien.png
+      - title: Shrimp Fried Rice
+        description: Fried rice with shrimps and vegies
+        price: 13.50
+        image: /photos/comchien.png
+      - title: Curry Chicken Rice Plate
+        description: Tender chicken breast, potato and carrot in curry sauce, served with white rice
+        price: 13.50
+        image: /photos/comchien.png
+      - title: Veggies Lover
+        description: Mix veggies and tofu stir-fried, served with white rice
+        price: 14.50
+        image: /photos/comchien.png
+      - title: Perfect Rice Plate
+        description: Mixed vegies, chicken breast, shrimp, beef stir-fried served with white rice
+        price: 14.95
+        image: /photos/comtam.png
+      - title: Crispy Lemongrass Chicken
+        description: Crispy Chicken stir-fried with lemongrass, chili and soy served with rice
+        price: 14.95
+        image: /photos/
+      - title: Mint Chicken
+        description: Minced chicken stir-fried with thai chilies over rice
+        price: 14.95
+        image: /photos/
+      - title: Vegie Fried Rice
+        description: Fried rice with mixed vegetable and egg
+        price: 13.50
+        image: /photos/
+      - title: Shaken Beef
+        description: Tender rib eye in cubes sauteed with bell pepper, onion in garlic pepper soy sauce
+        price: 18.50
+        image: /photos/
+
+
+  - Pho:
+    image: photos/phohaisan.png
+    items:
+    - title: House Pho
+      description: Our house pho with beef broth, beef slices, beef balls, and beef tripe.
+      price: 4.8
+      image: /photos/phoDacBiet.png
+    - title: Pho Tai
+      description: Beef slices
+      price: 4.5
+      image: /photos/photai.png
+    - title: Pho Tai Nam
+      description: Beef slices and beef flank
+      price: 4.5
+      image: /photos/photainam.png
+    - title: Pho Bo Vien
+      description: Beef balls
+      price: 4.5
+      image: /photos/phobovien.png
+    - title: Pho Tai Bo Vien
+      description: Beef slices and beef balls
+      price: 4.5
+      image: /photos/photainambovien.png
+    - title: chicken pho
+      description: Pho with chicken
+      price: 4.5
+      image: /photos/chickenpho.png
+    - title: Veggie Pho
+      description: Pho with tofu and veggies
+      price: 4.5
+      image: /photos/vegiepho.png
+    - title: Seafood Pho
+      description: Pho crab, shrimp and fish ball
+      price: 4.5
+      image: /photos/phohaisan.png
+    - title: Minced crab and shrimp soup
+      description: Minced crab and shrimp soup
+      price: 4.5
+      image: /photos/bunrieu.png
+    - title: Bun Bo Hue
+      description: Thick rice noodle in spicy beef flavored soup with beef and pork
+      price: 4.5
+      image: /photos/buonbohue.png
+    - title: wonton soup
+      description: Wontons made with pork and shrimp, with chicken, and vegetable with egg noddle
+      price: 14.50
+      image: /photos/wonton.png
+    - title: Oxtail Pho
+      description: Tender oxtail meat with rice noodle
+      price: 17.25
+      image: /photos/phoduoibo.png
+    - title: Beef Shortrib Pho
+      description: Tender oxtail meat with rice noodle
+      price: 18.50
+      image: /photos/phosuon.png
+  - Stir Fries:
+    image: /photos/mixaodon.png
+    items:
+    - title: Lat Na
+      description: Thai Style Stir-Fried with chicken breast, shrimps, and rice noodle
+      price: 14.95
+      image: /photos/
+    - title: Crispy Rice Noodle Cake
+      description: Crispy rice noodle cake with shrimp, chicken, and vegetables
+      price: 14.95
+      image: /photos
+    - title:  Hong Kong Beef Chow Fun
+      description: Hong Kong styled stir fry beef over rice noodle with soy sauce
+      price: 14.95
+      image: /photos
+    - title:  Pad Thai
+      description: Thai spicy noodle stir-fried with shrimps, tofu, egg, rice noodle and peanut
+      price: 14.95
+      image: /photos/padthai.png
+    - title:  Soft Egg Noodle Stir Fry
+      description: Soft egg noodle stir fry with chicken, shrimp, and vegetables
+      price: 14.95
+      image: /photos/mixaomem.png
+    - title:  Pan Fried Egg Noodle
+      description: Beef, shrimps, chicken, and veggies over pan fried egg noodle
+      price: 14.95
+      image: /photos/mixaodon.png
+    - title:  sweet and sour chicken
+      description: Sweet and sour chicken with pineapple, bell pepper, and onion
+      price: 14.25
+      image: /photos/sweetandsourchicken.png
+    - title: kung pao chicken
+      description: Chicken stir fried with celery, zucchini squash, water chestnut, white onion, bell pepper, and peanut, served with white rice
+      price: 14.25
+      image: /photos/kungpaochicken.png
+    - title:  Mongolian Beef
+      description: Beef, white onion, and green onion, served over crispy fried bean threads and white rice
+      price: 14.25
+      image: /photos/mongollianbeef.png
+    - title: Cashew Chicken
+      description: Chicken Stir-Fried with celecery, Zucchini Squash, water chestnut, white onion, bell pepper and cashew, served with white rice
+      price: 14.25
+      image: /photos/cashewchicken.png
+    - title: Chicken or Beef Lo Mein
+      description: Noodle stir fried with cabbage, celery, carrot, white onion and green onion 
+      price: 14.25
+      image: /photos/lomein.png
+    - title:  Chicken or Beef & Brocoli
+      description: your choice of beef or chicken stir-fried with brocoli 
+      price: 14.25
+      image: /photos/brocolichicken.png
+
+
+
+    
+
+
+
