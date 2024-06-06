@@ -1,5 +1,5 @@
 .menu-item {
-    width: 200px; 
+    width: 100%; 
     border-width: 2px;
     border-color: rgb(107, 20, 20);
     border-style: solid;
