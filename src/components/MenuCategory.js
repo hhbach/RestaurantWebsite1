@@ -11,7 +11,7 @@ const MenuCategory = (props) => {
             <Link to={`/menu/${props.category}`}>
             <div className="foodimage"> <img src={props.image}></img></div>
             <div className="item-title">
-                <h3 className="menu-item-title">{props.category}</h3>
+                <h2 className="menu-item-title">{props.category}</h2>
             </div>
             </Link>
         </div>

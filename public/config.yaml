@@ -2,81 +2,85 @@ menu:
   Appetizers:
     image: /photos/springrolls.png
     spring rolls:
-      description: this is a test description
-      price: 4.5
+      description: Grilled pork, shrimp, lettuce, rice noodle wrapped in rice paper. 
+        Served with peanut sauce
+      price: 6.95
       image: /photos/springrolls.png
     Vegie Spring Rolls:
-      description: this is a test description
-      price: 4.5
+      description: Tofu, lettuce and rice noodle wrapped in rice paper. Served with creamy 
+        peanut sauce
+      price: 6.70
       image: /photos/blank.png
     egg rolls:
-      description: this is a test description
-      price: 4.5
+      description: three crispy egg rolls filled with chicken, vegetables, and glass noodles.
+      price: 8.25
       image: /photos/eggrolls.png
     chicken wings:
-      description: this is a test description
-      price: 4.5
+      description: Six pieces of chicken wings tossed in our sweet chili sauce.
+      price: 10.50
       image: /photos/wings.png
     Fried Calamary:
-      description: this is a test description
-      price: 4.5
+      description: Crispy calamary sticks served with sweet and source dipping sauce.
+      price: 7.95
       image: /photos/calamari.png
     Banh Xeo:
-      description: this is a test description
-      price: 4.5
+      description: Stir-fried shrimp, pork, bean sprouts, and onion in a crispy rice flour crepe. Served
+        with our signature fish sauce
+      price: 9.95
       image: /photos/banhxeo.png
     Green beans:
-      description: this is a test description
-      price: 4.5
+      description: Stir-fried green beans with garlic and soy sauce
+      price: 7.95
       image: /photos/blank.png
     Papaya Salad:
-      description: this is a test description
-      price: 4.5
+      description: Shredded green papaya, carrot, basil, mint, and peanuts in a spicy lime dressing.
+        Served with shrimp flavored crackers
+      price: 7.85
       image: /photos/goidudu.png
     Spicy Beef Salad:
-      description: this is a test description
-      price: 4.5
+      description: Grilled beef, cucumber, tomato, onion, and mint in a spicy lime dressing.
+      price: 7.85
       image: /photos/beefsalad.png
     Pork Short Ribs:
-      description: this is a test description
-      price: 4.5
+      description: marinated pork short ribs tossed in a tamarind basil glaze
+      price: 7.85
       image: /photos/suonnon.png
     chicken Pot Stickers:
-      description: this is a test description
-      price: 4.5
+      description: six pieces of chicken pot stickers served with house soy sauce
+      price: 7.85
       image: /photos/potstickers.png
     Cream Cheese Crab Puffs:
-      description: this is a test description
-      price: 4.5
+      description: six pieces of crispy cream cheese crab puffs
+      price: 7.85
       image: /photos/blank.png
     Spicy Adamame:
-      description: this is a test description
+      description: Adamame tossed in a spicy garlic sauce
       price: 4.5
       image: /photos/adamame.png
   Vermicelli:
     image: /photos/bunthitnuong.png
     Hanoi Rice Vermicelli:
-      description: Grilled marinated pork, sausage, herbs, salad and vietnamese pickles
+      description: Grilled marinated pork, sausage, and herbs servered with a side of rice vermicelli
       price: 14.5
       image: /photos/blank.png
-    Shrimp pork and egg roll vermicelli:
-      description: Grilled marinated pork, shrimp, and egg roll with rice vermicelli
+    Shrimp pork eggroll vermicelli:
+      description: Grilled shrimp, pork, and egg roll served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/bunthitnuong.png
     Beef and egg roll vermicelli:
-      description: Grilled marinated pork, sausage, herbs, salad and vietnamese pickles
+      description: Grilled marinated beef and egg roll served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/blank.png
-    Chicken and egg roll vermicelli:
-      description: Grilled chicken and egg roll with rice vermicelli
+    Chicken and eggroll vermicelli:
+      description: Grilled marinated chicken and egg roll served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/bunga.png
     Lemongrass beef:
-      description: Grilled chicken and egg roll with rice vermicelli
+      description: Stir-fried lemongrass beef served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/blank.png
     Tofu Delight:
-      description: Rice vermicelli topped with wok tossed tofu
+      description: Stir-fried tofu served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/blank.png
   Rice:

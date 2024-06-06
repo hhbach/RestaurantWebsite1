@@ -12,10 +12,10 @@ const MenuItem = (props) => {
             <div className="foodimage"><img src={props.image}/></div>
             </Link>
             <div className="item-title">
-                <h3 className="menu-item-title">{props.title}</h3> ---
-                <p className="menu-item-price">${props.price}</p>
+                <h2 className="menu-item-title">{props.title}</h2> 
+                <p className="menu-item-price"> <h3> ${props.price}</h3></p>
             </div>
-
+            <br/>
             <p className="menu-item-description">{props.description}</p>
 
         </div>

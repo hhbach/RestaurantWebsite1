@@ -12,15 +12,7 @@
 .item-title {
     
     display: flex;
-    text-align: center;
     align-items: center;
     padding: 0 10% 0 0;
     background-color: orange;
-}
-
-.menu-item-title {
-    text-align: center;
-}
-
-.menu-item-price {
 }

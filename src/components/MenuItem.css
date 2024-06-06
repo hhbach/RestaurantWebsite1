@@ -1,9 +1,13 @@
 .menu-item {
     width: 100%; 
-    padding: 2px;
     border-width: 2px;
     border-color: rgb(163, 130, 0);
     border-style: solid;
+}
+
+.item-title {
+    padding: 2px;
+    justify-content: space-between;
 }
 
 .foodimage {
@@ -12,9 +16,7 @@
 
 }
 
-.item-title {
-    display: flex;
-    align-items: center;
-    padding: 0 10% 0 0;
+.menu-item-description {
+    font-size: 20px;
 }
 
