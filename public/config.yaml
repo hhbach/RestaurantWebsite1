@@ -75,7 +75,7 @@ menu:
       description: Grilled marinated chicken and egg roll served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/bunga.png
-    Lemongrass beef:
+    Lemon-grass beef:
       description: Stir-fried lemongrass beef served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/blank.png
@@ -121,7 +121,7 @@ menu:
       description: Mixed vegies, chicken breast, shrimp, beef stir-fried served with white rice
       price: 14.95
       image: /photos/comtam.png
-    Crispy Lemongrass Chicken:
+    Crispy Lemon-grass Chicken:
       description: Crispy Chicken stir-fried with lemongrass, chili and soy served with rice
       price: 14.95
       image: /photos/blank.png
