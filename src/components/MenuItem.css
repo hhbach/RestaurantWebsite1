@@ -1,5 +1,5 @@
 .menu-item {
-    width: 100%; 
+    width: 200px; 
     border-width: 2px;
     border-color: rgb(107, 20, 20);
     border-style: solid;
@@ -11,7 +11,7 @@
 }
 
 .foodimage {
-    width: 95%;
+    width: 100px;
     padding:10px;
 
 }

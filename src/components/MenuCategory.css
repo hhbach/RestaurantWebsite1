@@ -5,8 +5,7 @@
 }
 
 .foodimage {
-    width: 100%;
-    object-fit: cover;
+    width: px;
 }
 
 .item-title {

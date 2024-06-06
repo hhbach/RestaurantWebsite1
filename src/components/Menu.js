@@ -14,7 +14,7 @@ const Menu = () => {
     const { data } = useContext(UserContext); 
 
     return (
-        <div>
+        <div style={{width: "100%"}}>
 
            {category && <h1 style={{textAlign:"center", "padding" : "20px"}}>
             <Link to={`/menu`}>Menu</Link>{' '} / {' '}<h3>{category}</h3></h1>}
