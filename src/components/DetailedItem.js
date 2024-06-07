@@ -15,7 +15,6 @@ const DetailedItem = (props) => {
             <h1 style={{textAlign:"center", "padding" : "20px"}}>
                 <Link to={`/menu`}>Menu</Link>{' '} / {' '} 
                 <Link to={`/menu/${category}`}> {category} </Link>
-
             </h1>
             <div class="foodimage">
                 <img src={data.menu[category][item].image}/>

@@ -2,11 +2,14 @@
     border-width: 2px;
     border-color: rgb(107, 20, 20);
     border-style: solid;
+    text-align: left;
 }
 
 .item-title {
     padding: 2px;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .foodimage {
@@ -15,3 +18,12 @@
 
 }
 
+.menu-item-price {
+    text-align: left;
+    width: 100%;
+}
+
+.menu-item-title {
+    text-align: left;
+    width: 100%;
+}
