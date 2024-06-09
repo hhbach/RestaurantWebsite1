@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import yaml from 'js-yaml';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 import Menu from './components/Menu.js';
 import Contact from './components/Contact.js';
 import DetailedItem from './components/DetailedItem.js';
@@ -12,6 +13,7 @@ export const UserContext = React.createContext();
 
 function App() {
   const [data, setData] = useState(null);
+  const [isEnglish, setIsEnglish] = useState(true);
   const [imageDictionary, setImageDictionary] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -26,13 +28,12 @@ function App() {
       })
       .catch(error => {
         console.error(error);
-
       });
   }, []);
 
 
   return (
-    <UserContext.Provider value={{ data }}>
+    <UserContext.Provider value={{ data, isEnglish, setIsEnglish }}>
       <BrowserRouter>
         <NavBar/>
         <Routes>
@@ -42,6 +43,7 @@ function App() {
           <Route path="/" element={<Menu/>}/>
           <Route path="/menu" element={<Menu/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </UserContext.Provider>
   );

@@ -12,6 +12,7 @@ const Menu = () => {
 
     const { category } = useParams();
     const { data } = useContext(UserContext); 
+    const { language } = useContext(UserContext); 
 
     return (
         <div style={{width: "100%"}}>
