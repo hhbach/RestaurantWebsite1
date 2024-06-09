@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext} from 'react';
 import './MenuItem.css'
 import { Link, useParams } from 'react-router-dom';
+import { UserContext } from '../App.js';
 
 const MenuItem = (props) => {
     const { category } = useParams();
+    const { isEnglish} = useContext(UserContext);
     
     return (
         
@@ -12,7 +14,7 @@ const MenuItem = (props) => {
             <div className="foodimage"><img src={props.image}/></div>
             </Link>
             <div className="item-title">
-                <h3 className="menu-item-title">{props.title}</h3>
+                <h3 className="menu-item-title">{!isEnglish && props.altname ? props.altname : props.title}</h3>
                 <p className="menu-item-price"> <h4> ${props.price}</h4></p>
             </div>
             <br/>

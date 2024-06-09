@@ -12,7 +12,6 @@ const Menu = () => {
 
     const { category } = useParams();
     const { data } = useContext(UserContext); 
-    const { language } = useContext(UserContext); 
 
     return (
         <div style={{width: "100%"}}>
@@ -28,7 +27,8 @@ const Menu = () => {
                 Object.keys(data.menu).map((key, index) => {
                     const submenu = data.menu[key];
                     const image = submenu.image;
-                    return <MenuCategory category={key} image={image}/>
+                    const name2 = submenu.altname;
+                    return <MenuCategory category={key} image={image} altname={name2}/>
                 })
             }
                 
@@ -37,8 +37,9 @@ const Menu = () => {
                     Object.keys(data.menu[category]).map((item, index) => {
                         const menuItem = data.menu[category][item];
                         const image = menuItem.image;
-                        if (item != "image") {
-                            return <MenuItem title={item} image={image} price={menuItem.price} description={menuItem.description}/>
+                        const name2 = menuItem.altname;
+                        if (item != "image" && item != "altname") {
+                            return <MenuItem title={item} image={image} price={menuItem.price} description={menuItem.description} altname={name2}/>
                         }
                     }
                     )
