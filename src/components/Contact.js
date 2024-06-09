@@ -10,11 +10,11 @@ const Contact = () => {
         <div className="contact-container">
             <h1>Contact Us</h1>
             <h2>Address</h2>
-            <p><a href="https://www.google.com/maps/place/Pho+Chandler/@33.2464586,-111.8389869,17z/data=!3m1!4b1!4m6!3m5!1s0x872baabb883b3efd:0xd058d2210af74ddc!8m2!3d33.2464586!4d-111.8389869!16s%2Fg%2F1wc31qg9?entry=ttu">4055 S Arizona STE 8 <br/> Chandler, AZ 85248</a></p>
+            <p><a href="https://maps.app.goo.gl/UFwkJntV7Qk5vVbZA">4055 S Arizona STE 8 <br/> Chandler, AZ 85248</a></p>
             <br/>
             <br/>
             <h2>Phone</h2>
-            <p><a href="tel:(480)274-7255">(480)274-7255</a></p>
+            <p><a href="tel:(480)895-9090">(480)895-9090</a></p>
 
             <br/>
             <h2>Opening Hours</h2>
