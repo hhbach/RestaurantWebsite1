@@ -13,7 +13,7 @@ menu:
       description: Tofu, lettuce and rice noodle wrapped in rice paper. Served with creamy 
         peanut sauce
       price: 6.70
-      image: /photos/blank.png
+      image: /photos/vegiespringrolls.png
     egg rolls:
       altname: Chả Giò
       description: three crispy egg rolls filled with chicken, vegetables, and glass noodles.
@@ -77,7 +77,7 @@ menu:
       altname: Bún Chả Hà Nôi
       description: Grilled marinated pork, sausage, and herbs servered with a side of rice vermicelli
       price: 14.5
-      image: /photos/blank.png
+      image: /photos/bunchahanoi.png
     Shrimp pork eggroll vermicelli:
       altname: Bún Tôm Thịt Nướng
       description: Grilled shrimp, pork, and egg roll served over a bed of rice vermicelli and greens.
@@ -87,7 +87,7 @@ menu:
       altname: Bún Bò Nướng
       description: Grilled marinated beef and egg roll served over a bed of rice vermicelli and greens.
       price: 13.95
-      image: /photos/blank.png
+      image: /photos/bunbonuong.png
     Chicken and eggroll vermicelli:
       altname: Bún Gà Nướng
       description: Grilled marinated chicken and egg roll served over a bed of rice vermicelli and greens.
@@ -115,7 +115,7 @@ menu:
       altname: Cơm Sườn Nướng
       description: Grilled marinated pork chop, slices of cucumber, tomato, and lettuce over broken rice
       price: 14.95
-      image: /photos/blank.png
+      image: /photos/comsuonnuong.png
     Grilled Pork and shrim Rice:
       altname: Cơm Tôm Thịt Nướng
       description: Grilled pork and shrimp over rice
@@ -140,7 +140,7 @@ menu:
       altname: Cơm Gà Cari
       description: Tender chicken breast, potato and carrot in curry sauce, served with white rice
       price: 13.50
-      image: /photos/blank.png
+      image: /photos/comcari.png
     Veggies Lover:
       altname: Cơm Rau Cải
       description: Mix veggies and tofu stir-fried, served with white rice
@@ -150,7 +150,7 @@ menu:
       altname: Cơm Đặc Biệt
       description: Mixed vegies, chicken breast, shrimp, beef stir-fried served with white rice
       price: 14.95
-      image: /photos/comtam.png
+      image: /photos/perfectRicePlate.png
     Crispy Lemon-grass Chicken:
       altname: Cơm Gà Xào
       description: Crispy Chicken stir-fried with lemongrass, chili and soy served with rice
@@ -170,7 +170,7 @@ menu:
       altname: Bò Lúc Lắc
       description: Tender rib eye in cubes sauteed with bell pepper, onion in garlic pepper soy sauce
       price: 18.50
-      image: /photos/blank.png
+      image: /photos/shakingbeef.png
   Pho:
     altname: Phở
     image: /photos/photai.png
@@ -182,7 +182,7 @@ menu:
     Pho Tai:
       altname: Phở Tái
       description: Beef slices
-      price: 4.5
+      price: 4.5d
       image: /photos/photai.png
     Pho Tai Nam:
       altname: Phở Tái Nạm
@@ -193,12 +193,12 @@ menu:
       altname: Phở Bò Viên
       description: Beef balls
       price: 4.5
-      image: /photos/blank.png
+      image: /photos/phobovien.png
     Pho Tai Bo Vien:
       altname: Phở Tái Bò Viên
       description: Beef slices and beef balls
       price: 4.5
-      image: /photos/blank.png
+      image: /photos/photaibovien.png
     chicken pho:
       altname: Phở Gà
       description: Pho with chicken
@@ -208,7 +208,7 @@ menu:
       altname: Phở Chay
       description: Pho with tofu and veggies
       price: 4.5
-      image: /photos/blank.png
+      image: /photos/phorau.png
     Seafood Pho:
       altname: Phở Hải Sản
       description: Pho crab, shrimp and fish ball
@@ -233,7 +233,7 @@ menu:
       altname: Phở Đuôi Bò
       description: Tender oxtail meat with rice noodle
       price: 17.25
-      image: /photos/blank.png
+      image: /photos/phoduoi.png
     Beef Shortrib Pho:
       altname: Phở Sườn Bò
       description: Tender oxtail meat with rice noodle
@@ -245,17 +245,17 @@ menu:
     Lat Na:
       description: Thai Style Stir-Fried with chicken breast, shrimps, and rice noodle
       price: 14.95
-      image: /photos/blank.png
+      image: /photos/Latna.png
     Crispy Rice Noodle Cake:
       altname: Phơ Áp Chảo
       description: Crispy rice noodle cake with shrimp, chicken, and vegetables
       price: 14.95
-      image: /photos/blank.png
+      image: /photos/phoapchao.png
     Hong Kong Beef Chow Fun:
       altname: Phơ Xào Bò Hồng Kông
       description: Hong Kong styled stir fry beef over rice noodle with soy sauce
       price: 14.95
-      image: /photos/blank.png
+      image: /photos/phoxaobohongkong.png
     Pad Thai:
       altname: Phơ Xào Thái
       description: Thai spicy noodle stir-fried with shrimps, tofu, egg, rice noodle and peanut
@@ -265,7 +265,7 @@ menu:
       altname: Mì Xào Mềm
       description: Soft egg noodle stir fry with chicken, shrimp, and vegetables
       price: 14.95
-      image: /photos/blank.png
+      image: /photos/mixaomem.png
     Pan Fried Egg Noodle:
       altname: Mì Xào Giòn
       description: Beef, shrimps, chicken, and veggies over pan fried egg noodle
