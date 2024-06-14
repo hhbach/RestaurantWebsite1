@@ -4,6 +4,7 @@ import yaml from 'js-yaml';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/Navbar.js';
 import Footer from './components/Footer.js';
+import ScrollToTop from './components/ScrollToTop.js';
 import Menu from './components/Menu.js';
 import Contact from './components/Contact.js';
 import DetailedItem from './components/DetailedItem.js';
@@ -36,6 +37,7 @@ function App() {
     <UserContext.Provider value={{ data, isEnglish, setIsEnglish }}>
       <BrowserRouter>
         <NavBar/>
+        <ScrollToTop/>
         <Routes>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/menu/:category/:item" element={<DetailedItem/>}/>
