@@ -64,12 +64,17 @@ menu:
       altname: Bánh Phồng Tôm
       description: six pieces of crispy cream cheese crab puffs
       price: 7.85
-      image: /photos/blank.png
+      image: /photos/crabpuffs.png
     Spicy Adamame:
       altname: Đậu Xào Ớt
       description: Adamame tossed in a spicy garlic sauce
       price: 4.5
       image: /photos/adamame.png
+    coconut shrimp:
+      altname: Tôm Chiên Dừa
+      description: Six pieces of coconut shrimp served with sweet chili sauce
+      price: 7.85
+      image: /photos/coconutshrimp.png
   Vermicelli:
     altname: Bún
     image: /photos/bunthitnuong.png
