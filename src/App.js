@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import yaml from 'js-yaml';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/Navbar.js';
@@ -15,7 +14,6 @@ export const UserContext = React.createContext();
 function App() {
   const [data, setData] = useState(null);
   const [isEnglish, setIsEnglish] = useState(true);
-  const [imageDictionary, setImageDictionary] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -25,7 +23,7 @@ function App() {
         const doc = yaml.safeLoad(text);
         console.log(text)
         setData(doc);
-
+        setIsLoading(false);
       })
       .catch(error => {
         console.error(error);
@@ -34,7 +32,7 @@ function App() {
 
 
   return (
-    <UserContext.Provider value={{ data, isEnglish, setIsEnglish }}>
+    <UserContext.Provider value={{ data, isLoading, isEnglish, setIsEnglish }}>
       <BrowserRouter>
         <NavBar/>
         <ScrollToTop/>

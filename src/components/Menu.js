@@ -11,15 +11,16 @@ import { UserContext } from '../App.js';
 const Menu = () => {
 
     const { category } = useParams();
-    const { data } = useContext(UserContext); 
+    const { data, isEnglish } = useContext(UserContext); 
 
     return (
         <div style={{width: "100%"}}>
 
            {category && <h1 style={{textAlign:"center", "padding" : "20px"}}>
-            <Link to={`/menu`}>Menu</Link>{' '} / {' '}<h3>{category}</h3></h1>}
+            <Link to={`/menu`}>{isEnglish && "Menu"} {!isEnglish && "Thực đơn"} </Link>{' '} / {' '}<h3>{category}</h3></h1>}
+            
            {!category && <h1 style={{textAlign:"center", "padding" : "20px"}}>
-            <h3> Menu</h3></h1>}
+            <h3> {isEnglish && "Menu"} {!isEnglish && "Thực đơn"}</h3></h1>}
 
             <div className="grid">
                 

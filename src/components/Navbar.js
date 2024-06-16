@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { NavLink as Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import './Navbar.css';
 import './Footer.css';
 import { UserContext } from '../App.js';
@@ -9,7 +9,7 @@ const Navbar = () => {
     const { isEnglish, setIsEnglish} = useContext(UserContext);
 
     const toggleNavbarVisibility = (event) => {
-        event.stopPropagation();
+        //event.stopPropagation();
         setIsNavbarExpanded(!isNavbarExpanded);
         
     };
@@ -34,7 +34,6 @@ const Navbar = () => {
 
 
     const handleLanguageChange = (event) => {
-        event.stopPropagation();
         setIsEnglish(!isEnglish);
         // Here you can implement the logic to change the language of your website
     }
@@ -44,7 +43,7 @@ const Navbar = () => {
             <nav className="navbar-container container">
                 
             <Link to="/" className="home-link">
-                <h2> {isEnglish? 'Pho Chandler' : 'Phở Chandler'} </h2>
+                 {isEnglish? 'Pho Chandler' : 'Phở Chandler'} 
             </Link>
                 <button 
                     type="button" 
