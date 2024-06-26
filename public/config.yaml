@@ -12,7 +12,7 @@ menu:
       altname: Gỏi Cuốn Chay
       description: Tofu, lettuce and rice noodle wrapped in rice paper. Served with creamy 
         peanut sauce
-      price: 6.70
+      price: '6.70'
       image: /photos/vegiespringrolls.png
     egg rolls:
       altname: Chả Giò
@@ -68,7 +68,7 @@ menu:
     Spicy Adamame:
       altname: Đậu Xào Ớt
       description: Adamame tossed in a spicy garlic sauce
-      price: 4.5
+      price: 7.85
       image: /photos/adamame.png
     coconut shrimp:
       altname: Tôm Chiên Dừa
@@ -81,7 +81,7 @@ menu:
     Hanoi Rice Vermicelli:
       altname: Bún Chả Hà Nôi
       description: Grilled marinated pork, sausage, and herbs servered with a side of rice vermicelli
-      price: 14.5
+      price: '14.50'
       image: /photos/bunchahanoi.png
     Shrimp pork eggroll vermicelli:
       altname: Bún Tôm Thịt Nướng
@@ -124,7 +124,7 @@ menu:
     Grilled Pork and shrim Rice:
       altname: Cơm Tôm Thịt Nướng
       description: Grilled pork and shrimp over rice
-      price: 14.95
+      price: '14.50'
       image: /photos/comthitnuong.png
     Beef short ribs Rice:
       altname: Cơm Sườn Bò Nướng
@@ -132,24 +132,29 @@ menu:
       price: 14.95
       image: /photos/blank.png
     Combo Fried Rice:
-      altname: Cơm Chiên
+      altname: Cơm Chiên Đặc Biệt
       description: Fried rice with shrimp, chicken, and beef
       price: 14.95
       image: /photos/blank.png
     Shrimp Fried Rice:
       altname: Cơm Chiên Tôm
       description: Fried rice with shrimps and vegies
-      price: 13.50
+      price: '13.50'
+      image: /photos/blank.png
+    Vegie Fried Rice:
+      altname: Cơm Chiên Chay
+      description: Fried rice with mixed vegetable and egg
+      price: '13.50'
       image: /photos/blank.png
     Curry Chicken Rice Plate:
       altname: Cơm Gà Cari
       description: Tender chicken breast, potato and carrot in curry sauce, served with white rice
-      price: 13.50
+      price: '13.50'
       image: /photos/comcari.png
     Veggies Lover:
       altname: Cơm Rau Cải
       description: Mix veggies and tofu stir-fried, served with white rice
-      price: 14.50
+      price: '14.50'
       image: /photos/blank.png
     Perfect Rice Plate:
       altname: Cơm Đặc Biệt
@@ -159,22 +164,18 @@ menu:
     Crispy Lemon-grass Chicken:
       altname: Cơm Gà Xào
       description: Crispy Chicken stir-fried with lemongrass, chili and soy served with rice
-      price: 14.95
+      price: '13.50'
       image: /photos/blank.png
     Mint Chicken:
       altname: Cơm Gà Bạc Hà
       description: Minced chicken stir-fried with thai chilies over rice
-      price: 14.95
+      price: 13.95
       image: /photos/blank.png
-    Vegie Fried Rice:
-      altname: Cơm Chiên Chay
-      description: Fried rice with mixed vegetable and egg
-      price: 13.50
-      image: /photos/blank.png
+    
     Shaken Beef:
       altname: Bò Lúc Lắc
       description: Tender rib eye in cubes sauteed with bell pepper, onion in garlic pepper soy sauce
-      price: 18.50
+      price: '18.50'
       image: /photos/shakingbeef.png
   Pho:
     altname: Phở
@@ -182,57 +183,57 @@ menu:
     House Pho:
       altname: Phở Đặc Biệt
       description: Our house pho with beef broth, beef slices, beef balls, and beef tripe.
-      price: 4.8
+      price: '14.50'
       image: /photos/blank.png
     Pho Tai:
       altname: Phở Tái
       description: Beef slices
-      price: 4.5d
+      price: 13.25
       image: /photos/photai.png
     Pho Tai Nam:
       altname: Phở Tái Nạm
       description: Beef slices and beef flank
-      price: 4.5
+      price: 13.25
       image: /photos/photainam.png
     Pho Bo Vien:
       altname: Phở Bò Viên
       description: Beef balls
-      price: 4.5
+      price: 13.25
       image: /photos/phobovien.png
     Pho Tai Bo Vien:
       altname: Phở Tái Bò Viên
       description: Beef slices and beef balls
-      price: 4.5
+      price: 13.25
       image: /photos/photaibovien.png
     chicken pho:
       altname: Phở Gà
       description: Pho with chicken
-      price: 4.5
+      price: 13.25
       image: /photos/blank.png
     Veggie Pho:
       altname: Phở Chay
       description: Pho with tofu and veggies
-      price: 4.5
+      price: 13.25
       image: /photos/phorau.png
     Seafood Pho:
       altname: Phở Hải Sản
       description: Pho crab, shrimp and fish ball
-      price: 4.5
+      price: 17.50
       image: /photos/phohaisan.png
     Minced crab and shrimp soup:
       altname: Bún Riêu
       description: Minced crab and shrimp soup
-      price: 4.5
+      price: 15.25
       image: /photos/bunrieu.png
     Bun Bo Hue:
       altname: Bún Bò Huế
       description: Thick rice noodle in spicy beef flavored soup with beef and pork
-      price: 4.5
+      price: '13.50'
       image: /photos/buonbohue.png
     wonton soup:
       altname: Mì Hoành Thánh
       description: Wontons made with pork and shrimp, with chicken, and vegetable with egg noddle
-      price: 14.50
+      price: '14.50'
       image: /photos/wonton.png
     Oxtail Pho:
       altname: Phở Đuôi Bò
@@ -242,7 +243,7 @@ menu:
     Beef Shortrib Pho:
       altname: Phở Sườn Bò
       description: Tender oxtail meat with rice noodle
-      price: 18.50
+      price: '18.50'
       image: /photos/phosuon.png
   Stir Fries:
     altname: Món Xào
@@ -259,7 +260,7 @@ menu:
     Hong Kong Beef Chow Fun:
       altname: Phơ Xào Bò Hồng Kông
       description: Hong Kong styled stir fry beef over rice noodle with soy sauce
-      price: 14.95
+      price: 14.25
       image: /photos/phoxaobohongkong.png
     Pad Thai:
       altname: Phơ Xào Thái
@@ -279,7 +280,7 @@ menu:
     sweet and sour chicken:
       altname: Gà Sốt Chua Ngọt
       description: Sweet and sour chicken with pineapple, bell pepper, and onion
-      price: 14.25
+      price: 14.95
       image: /photos/sweetandsourchicken.png
     kung pao chicken:
       altname: Gà Kung Pao

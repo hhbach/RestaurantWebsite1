@@ -28,7 +28,7 @@ const Footer = () => {
                         <input type="checkbox" checked={!isEnglish} onChange={handleLanguageChange} />
                         <span className="slider round"></span>
                     </label>
-                    <p className='switch-label'>{isEnglish ? 'English' : 'Tiếng Việt'}</p>
+                    <p className='switch-label'>{isEnglish ?  'Tiếng Việt' : 'English'}</p>
                 </div>
             </footer>
         </div>

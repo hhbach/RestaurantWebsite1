@@ -43,7 +43,7 @@ const Navbar = () => {
             <nav className="navbar-container container">
                 
             <Link to="/" className="home-link">
-                 {isEnglish? 'Pho Chandler' : 'Phở Chandler'} 
+                 <h2> {isEnglish? 'Pho Chandler' : 'Phở Chandler'} </h2>
             </Link>
                 <button 
                     type="button" 
@@ -70,7 +70,7 @@ const Navbar = () => {
                                 <input id="language-cb" type="checkbox" checked={!isEnglish} onChange={(event) => handleLanguageChange(event)} />
                                     <span className="slider round"></span>
                                 </label>
-                                <p className='switch-label'>{isEnglish ? 'English' : 'Tiếng Việt'}</p>
+                                <p className='switch-label'>{isEnglish ? 'Tiếng Việt' : 'English'}</p>
                             </div>
                         </li>
                     </ul>
