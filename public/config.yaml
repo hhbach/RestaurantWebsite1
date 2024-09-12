@@ -39,7 +39,7 @@ menu:
       altname: Đậu Xanh Xào Tỏi
       description: Stir-fried green beans with garlic and soy sauce
       price: 7.95
-      image: /photos/blank.png
+      image: /photos/greenbeans.png
     Papaya Salad:
       altname: Gỏi Đu Đủ
       description: Shredded green papaya, carrot, basil, mint, and peanuts in a spicy lime dressing.
@@ -98,11 +98,11 @@ menu:
       description: Grilled marinated chicken and egg roll served over a bed of rice vermicelli and greens.
       price: 13.95
       image: /photos/bunga.png
-    Lemon-grass beef:
+    Lemon-grass beef/chicken:
       altname: Bún Bò Xào
       description: Stir-fried lemongrass beef served over a bed of rice vermicelli and greens.
       price: 13.95
-      image: /photos/blank.png
+      image: /photos/lemongrasschicken.png
     Tofu Delight:
       altname: Bún Đậu Hủ
       description: Stir-fried tofu served over a bed of rice vermicelli and greens.
@@ -140,7 +140,7 @@ menu:
       altname: Cơm Chiên Tôm
       description: Fried rice with shrimps and vegies
       price: '13.50'
-      image: /photos/blank.png
+      image: /photos/shrimfriedrice.png
     Vegie Fried Rice:
       altname: Cơm Chiên Chay
       description: Fried rice with mixed vegetable and egg
@@ -165,12 +165,12 @@ menu:
       altname: Cơm Gà Xào
       description: Crispy Chicken stir-fried with lemongrass, chili and soy served with rice
       price: '13.50'
-      image: /photos/blank.png
+      image: /photos/lemongrass.png
     Mint Chicken:
       altname: Cơm Gà Bạc Hà
       description: Minced chicken stir-fried with thai chilies over rice
       price: 13.95
-      image: /photos/blank.png
+      image: /photos/mintchicken.png
     
     Shaken Beef:
       altname: Bò Lúc Lắc
@@ -184,7 +184,7 @@ menu:
       altname: Phở Đặc Biệt
       description: Our house pho with beef broth, beef slices, beef balls, and beef tripe.
       price: '14.50'
-      image: /photos/blank.png
+      image: /photos/phodacbiet.png
     Pho Tai:
       altname: Phở Tái
       description: Beef slices
@@ -266,7 +266,7 @@ menu:
       altname: Phơ Xào Thái
       description: Thai spicy noodle stir-fried with shrimps, tofu, egg, rice noodle and peanut
       price: 14.95
-      image: /photos/blank.png
+      image: /photos/padthai.png
     Soft Egg Noodle Stir Fry:
       altname: Mì Xào Mềm
       description: Soft egg noodle stir fry with chicken, shrimp, and vegetables
@@ -286,7 +286,7 @@ menu:
       altname: Gà Kung Pao
       description: Chicken stir fried with celery, zucchini squash, water chestnut, white onion, bell pepper, and peanut, served with white rice
       price: 14.25
-      image: /photos/blank.png
+      image: /photos/kungPaoChicken.png
     Mongolian Beef:
       altname: Bò Xào Mông Cổ
       description: Beef, white onion, and green onion, served over crispy fried bean threads and white rice
@@ -300,7 +300,7 @@ menu:
     Chicken or Beef Lo Mein:
       description: Noodle stir fried with cabbage, celery, carrot, white onion and green onion 
       price: 14.25
-      image: /photos/blank.png
+      image: /photos/beeflomein.png
     Chicken or Beef & Brocoli:
       altname: Gà hoặc Bò Xào Bông Cải
       description: your choice of beef or chicken stir-fried with brocoli 
