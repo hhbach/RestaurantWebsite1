@@ -6,12 +6,13 @@ import { useParams } from 'react-router-dom';
 import MenuCategory from './MenuCategory.js';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../App.js';
+import data from '../config.json';
 
 
 const Menu = () => {
 
     const { category } = useParams();
-    const { data, isEnglish } = useContext(UserContext); 
+    const { isEnglish } = useContext(UserContext); 
 
     return (
         <div style={{width: "100%"}}>
@@ -24,7 +25,7 @@ const Menu = () => {
 
             <div className="grid">
                 
-            {!category && data && 
+            {!category  && 
                 Object.keys(data.menu).map((key, index) => {
                     const submenu = data.menu[key];
                     const image = submenu.image;
@@ -33,7 +34,7 @@ const Menu = () => {
                 })
             }
                 
-            {category && data &&
+            {category  &&
             
                     Object.keys(data.menu[category]).map((item, index) => {
                         const menuItem = data.menu[category][item];

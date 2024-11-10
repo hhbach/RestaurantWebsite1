@@ -8,7 +8,7 @@ const MenuItem = (props) => {
     const { isEnglish} = useContext(UserContext);
     
     return (
-        
+
         <div className="menu-item">
             <Link to={`/menu/${category}/${props.title}`}>
             <div className="foodimage"><img src={props.image}/></div>

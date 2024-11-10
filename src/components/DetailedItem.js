@@ -3,20 +3,14 @@ import './DetailedItem.css'
 import { Link, useParams } from 'react-router-dom';
 import { UserContext } from '../App.js';
 
+import data from '../config.json';
+
 
 
 const DetailedItem = (props) => {
     const { category, item} = useParams();
-    const { data, isEnglish, isLoading } = useContext(UserContext); 
+    const {  isEnglish, isLoading } = useContext(UserContext); 
 
-    if(isLoading) {
-        return (
-            <div>
-                Loading...
-            </div>
-        );
-    }
-    else {
         return (
             <div className="Item">
                 <h1 style={{textAlign:"center", "padding" : "20px"}}>
@@ -38,7 +32,6 @@ const DetailedItem = (props) => {
                 </div>
             </div>
         );
-    }
 }
 
 export default DetailedItem;
