@@ -8,31 +8,20 @@ import Menu from './components/Menu.js';
 import Contact from './components/Contact.js';
 import DetailedItem from './components/DetailedItem.js';
 import './App.css';
+import config from './config.json';
+
+import { configure } from '@testing-library/react';
 
 export const UserContext = React.createContext();
 
 function App() {
-  const [data, setData] = useState(null);
   const [isEnglish, setIsEnglish] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    fetch('/config.yaml')
-      .then(response => response.text())
-      .then(text => {
-        const doc = yaml.safeLoad(text);
-        console.log(text)
-        setData(doc);
-        setIsLoading(false);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }, []);
 
 
   return (
-    <UserContext.Provider value={{ data, isLoading, isEnglish, setIsEnglish }}>
+    <UserContext.Provider value={{ config, isLoading, isEnglish, setIsEnglish }}>
       <BrowserRouter>
         <NavBar/>
         <ScrollToTop/>
