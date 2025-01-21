@@ -158,7 +158,7 @@
         "altname": "Cơm Chiên Đặc Biệt",
         "description": "Fried rice with shrimp, chicken, and beef",
         "price": 15.50,
-        "image": "/photos/blank.png"
+        "image": "/photos/comboFriedRice.png"
       },
       "Shrimp Fried Rice": {
         "altname": "Cơm Chiên Tôm",
@@ -246,7 +246,7 @@
         "altname": "Phở Gà",
         "description": "Pho with chicken",
         "price": 14.25,
-        "image": "/photos/blank.png"
+        "image": "/photos/chickenPho.png"
       },
       "Veggie Pho": {
         "altname": "Phở Chay",
@@ -351,7 +351,7 @@
         "altname": "Gà Xào Hạt Điều",
         "description": "Chicken Stir-Fried with celecery, Zucchini Squash, water chestnut, white onion, bell pepper and cashew, served with white rice",
         "price": 14.95,
-        "image": "/photos/blank.png"
+        "image": "/photos/cashewChicken.png"
       },
       "Chicken or Beef Lo Mein": {
         "description": "Noodle stir fried with cabbage, celery, carrot, white onion and green onion",

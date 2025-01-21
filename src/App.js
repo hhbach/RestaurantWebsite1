@@ -1,3 +1,4 @@
+import config from './config.json';
 import React, { useState, useEffect } from 'react';
 import yaml from 'js-yaml';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -8,7 +9,7 @@ import Menu from './components/Menu.js';
 import Contact from './components/Contact.js';
 import DetailedItem from './components/DetailedItem.js';
 import './App.css';
-import config from './config.json';
+
 
 import { configure } from '@testing-library/react';
 

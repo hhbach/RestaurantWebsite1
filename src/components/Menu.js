@@ -1,3 +1,4 @@
+import data from '../config.json';
 import React, { useContext } from 'react';
 import MenuItem from './MenuItem.js';
 import './Menu.css'
@@ -6,7 +7,6 @@ import { useParams } from 'react-router-dom';
 import MenuCategory from './MenuCategory.js';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../App.js';
-import data from '../config.json';
 
 
 const Menu = () => {
@@ -47,7 +47,6 @@ const Menu = () => {
                     )
             
             }
-
             </div>
         </div>
 
