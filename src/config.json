@@ -43,7 +43,7 @@
         "altname": "Đậu Xanh Xào Tỏi",
         "description": "Stir-fried green beans with garlic and soy sauce",
         "price": 8.25,
-        "image": "/photos/greenbeans.png"
+        "image": "/photos/greenBeans.png"
       },
       "Papaya Salad": {
         "altname": "Gỏi Đu Đủ",
@@ -164,7 +164,7 @@
         "altname": "Cơm Chiên Tôm",
         "description": "Fried rice with shrimps and vegies",
         "price": 15.50,
-        "image": "/photos/shrimfriedrice.png"
+        "image": "/photos/shrimFriedRice.png"
       },
       "Vegie Fried Rice": {
         "altname": "Cơm Chiên Chay",

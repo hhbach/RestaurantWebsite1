@@ -15,13 +15,11 @@ const MenuCategory = (props) => {
             <Link to={`/menu/${props.category}`}>
                 <div className="foodimage">
                     {/* Placeholder image */}
-                    {!imageLoaded && (
-                        <img
-                            src={placeholderImage} // Use the imported placeholder image
-                            alt="Placeholder"
-                            className="placeholder-image"
-                        />
-                    )}
+                    <img
+                        src={placeholderImage} // Use the placeholder image
+                        alt="Placeholder"
+                        className={`placeholder-image ${imageLoaded ? 'hidden' : ''}`}
+                    />
                     {/* Actual image */}
                     <img
                         src={props.image}
